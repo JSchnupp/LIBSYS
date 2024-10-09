@@ -22,8 +22,6 @@ public class Selection_Page implements ActionListener {
 	
 	URL f_LOGOImage = LIBSYS_launch.class.getResource("Encryption Logo.png"); // Creates a reference to the icon within other folder holding the Logo image
 	
-	ImageIcon f_EncryptionLOGO = new ImageIcon(f_LOGOImage); //Image icon instance of the Logo image
-	
 	// Button used for the Selection Page
 	JButton f_UserButton = new JButton("User Login"); // User Login Button Declaration and assignment, labeled with "User Login"
 	JButton f_GuestButton = new JButton("Use as Guest"); // Guest Button Declaration and assignment, labeled with "Use as Guest"
