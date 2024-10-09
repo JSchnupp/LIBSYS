@@ -110,7 +110,6 @@ public class Main_Menu implements ActionListener {
 		f_Menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // application is halted when window is closed
 		f_Menu.setLayout(null); // no layout is specified, everything is placed manually
 		f_Menu.setResizable(false); // disables ability to resize windows
-		f_Menu.setIconImage(f_EncryptionLOGO.getImage()); // Image Icon is used to set the window/application image
 		f_Menu.setVisible(true); // window is made visible for users to see
 		
 	}
